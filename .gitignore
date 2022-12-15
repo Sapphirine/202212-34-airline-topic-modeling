@@ -1,0 +1,6 @@
+__MACOSX/
+.DS_Store
+.idea/
+.ipynb_checkpoints/
+.mallet-2.0.8.zip.icloud
+old/.ipynb_checkpoints/
