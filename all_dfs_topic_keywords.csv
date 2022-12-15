@@ -1,0 +1,131 @@
+topic_id,topic_keyword,keyword_importance,keyword_count_in_topic,median_engmt_of_tweets_w_keyword,topic_name
+0,world,0.19042131,926.0,2.051217379902333,"Charitable work, raising awareness"
+0,learn,0.097328134,674.0,1.4827343525639392,"Charitable work, raising awareness"
+0,come,0.09181764,698.0,2.1311966997012073,"Charitable work, raising awareness"
+0,food,0.073243886,182.0,1.6224861499261543,"Charitable work, raising awareness"
+0,team,0.07082496,550.0,1.8378745306660436,"Charitable work, raising awareness"
+0,support,0.06099797,418.0,1.5251181199920802,"Charitable work, raising awareness"
+0,help,0.058327336,660.0,1.479018740004512,"Charitable work, raising awareness"
+0,big,0.055520546,263.0,1.7787100157315154,"Charitable work, raising awareness"
+0,proud,0.042100627,460.0,2.0653980973748816,"Charitable work, raising awareness"
+0,want,0.041373894,427.0,1.982759295923021,"Charitable work, raising awareness"
+2,today,0.30710322,412.0,2.4886297872266363,"Future-forward campaigns (i.e. aviation, sustainability)"
+2,excite,0.12432558,112.0,2.8336091020201137,"Future-forward campaigns (i.e. aviation, sustainability)"
+2,journey,0.09821415,154.0,1.9323698454649136,"Future-forward campaigns (i.e. aviation, sustainability)"
+2,fantastic,0.09047559,24.0,1.893972861809413,"Future-forward campaigns (i.e. aviation, sustainability)"
+2,share,0.0834208,219.0,1.9764297122892582,"Future-forward campaigns (i.e. aviation, sustainability)"
+2,customer,0.044999473,185.0,1.8005862953048262,"Future-forward campaigns (i.e. aviation, sustainability)"
+2,introduce,0.038303483,48.0,2.434327549497754,"Future-forward campaigns (i.e. aviation, sustainability)"
+2,head,0.035837214,97.0,2.1010872071824576,"Future-forward campaigns (i.e. aviation, sustainability)"
+2,future,0.034514617,128.0,2.4040704841776224,"Future-forward campaigns (i.e. aviation, sustainability)"
+2,extra,0.023104198,57.0,2.0595553356312637,"Future-forward campaigns (i.e. aviation, sustainability)"
+3,look,0.15320261,218.0,1.9798410158634416,Travel spots with the best views
+3,work,0.12454503,166.0,1.5670133780666786,Travel spots with the best views
+3,great,0.11216048,210.0,1.5742002302816158,Travel spots with the best views
+3,view,0.11136725,271.0,2.695327102803738,Travel spots with the best views
+3,activity,0.099566534,19.0,1.353439296309225,Travel spots with the best views
+3,connect,0.056101136,43.0,1.0566449775689337,Travel spots with the best views
+3,guess,0.03884448,131.0,3.777082378943624,Travel spots with the best views
+3,tomorrow,0.035732705,62.0,3.097985966951188,Travel spots with the best views
+3,easy,0.03553238,28.0,1.3885861155659935,Travel spots with the best views
+3,early,0.03312288,31.0,1.1317133350182216,Travel spots with the best views
+4,happy,0.14614354,399.0,2.3728702867177103,Campaign with a contest
+4,win,0.112588964,558.0,1.577569230248506,Campaign with a contest
+4,use,0.101292886,146.0,1.6867807402271007,Campaign with a contest
+4,get,0.083621085,322.0,1.7569028490827374,Campaign with a contest
+4,instagram,0.051498517,185.0,2.6664011400933485,Campaign with a contest
+4,info,0.046508648,74.0,1.392319448248391,Campaign with a contest
+4,feature,0.04337978,140.0,1.7474611404751743,Campaign with a contest
+4,stand,0.04093444,101.0,,Campaign with a contest
+4,chance,0.037444275,360.0,1.7026126980289589,Campaign with a contest
+4,participate,0.03226611,87.0,0.818698341280738,Campaign with a contest
+5,service,0.4082309,68.0,2.0463613913281646,Non-stop flight service
+5,board,0.25157937,23.0,2.0495659643083077,Non-stop flight service
+5,ride,0.10189966,9.0,1.4060402684563758,Non-stop flight service
+5,nonstop,0.04973606,32.0,1.3664759179780641,Non-stop flight service
+5,recovery,0.018057607,1.0,0.3667003707448601,Non-stop flight service
+5,guest,1.7251248e-05,4.0,1.5535287930814987,Non-stop flight service
+5,stop,1.718838e-05,36.0,1.745328673285908,Non-stop flight service
+5,close,1.7188195e-05,3.0,1.9999563451412006,Non-stop flight service
+5,app,1.7161821e-05,5.0,3.6913610014666,Non-stop flight service
+5,station_town,1.7148412e-05,0.0,,Non-stop flight service
+6,day,0.2334855,1804.0,1.95600192142741,Promotional campaign via travel suggestions
+6,fly,0.2177936,2301.0,1.7676243486960912,Promotional campaign via travel suggestions
+6,bring,0.08051383,357.0,2.0865883386941118,Promotional campaign via travel suggestions
+6,live,0.06355811,321.0,1.766738904844551,Promotional campaign via travel suggestions
+6,week,0.054982822,657.0,1.9425015683610452,Promotional campaign via travel suggestions
+6,dream,0.054656822,374.0,2.217566331907526,Promotional campaign via travel suggestions
+6,long,0.041594595,357.0,2.103774870817817,Promotional campaign via travel suggestions
+6,life,0.03394704,302.0,1.6073365299488986,Promotional campaign via travel suggestions
+6,wish,0.031264037,469.0,2.320062977957715,Promotional campaign via travel suggestions
+6,schedule,0.030869732,346.0,0.8530418297902226,Promotional campaign via travel suggestions
+8,book,0.25238404,3315.0,1.5173165515734617,Best/lowest/discounted fares
+8,destination,0.13223161,1535.0,1.905962087652248,Best/lowest/discounted fares
+8,ticket,0.07124517,1469.0,1.6943748688882134,Best/lowest/discounted fares
+8,read,0.05926938,744.0,1.8076798641599277,Best/lowest/discounted fares
+8,super,0.04087126,166.0,1.577636300628355,Best/lowest/discounted fares
+8,favourite,0.033313684,326.0,1.826388749215231,Best/lowest/discounted fares
+8,well,0.03305402,7.0,1.9394837875850532,Best/lowest/discounted fares
+8,month,0.031155486,337.0,1.3284513233299733,Best/lowest/discounted fares
+8,sky,0.026630122,513.0,2.1587533171628515,Best/lowest/discounted fares
+8,history,0.026074823,208.0,1.5324881223041458,Best/lowest/discounted fares
+10,new,0.25413778,1441.0,2.4819810952270394,"Airline growth (i.e. new routes, aircraft, offerings)"
+10,good,0.18208633,364.0,1.6598402481890762,"Airline growth (i.e. new routes, aircraft, offerings)"
+10,plan,0.07936661,573.0,1.8912064238151194,"Airline growth (i.e. new routes, aircraft, offerings)"
+10,join,0.058699194,268.0,1.6312598341140334,"Airline growth (i.e. new routes, aircraft, offerings)"
+10,deal,0.04856713,263.0,1.3474908517130397,"Airline growth (i.e. new routes, aircraft, offerings)"
+10,follow,0.044906083,277.0,1.919601189429599,"Airline growth (i.e. new routes, aircraft, offerings)"
+10,final,0.040259562,94.0,1.6020898492764906,"Airline growth (i.e. new routes, aircraft, offerings)"
+10,enter,0.031705208,197.0,1.6022330300318806,"Airline growth (i.e. new routes, aircraft, offerings)"
+10,sure,0.027836075,204.0,1.6815809422820842,"Airline growth (i.e. new routes, aircraft, offerings)"
+10,delivery,0.026261244,46.0,3.9523708673396962,"Airline growth (i.e. new routes, aircraft, offerings)"
+11,time,0.315364,617.0,1.7875618533513271,Scenic/peaceful travel destinations
+11,know,0.15457131,382.0,1.7666402514628792,Scenic/peaceful travel destinations
+11,night,0.11584148,160.0,1.6931197138053713,Scenic/peaceful travel destinations
+11,beautiful,0.053024158,196.0,2.2210949548675942,Scenic/peaceful travel destinations
+11,moment,0.05064174,125.0,2.339236279299392,Scenic/peaceful travel destinations
+11,stay,0.046852876,153.0,1.3767595321117403,Scenic/peaceful travel destinations
+11,hour,0.035633106,220.0,1.3294143016980229,Scenic/peaceful travel destinations
+11,away,0.030998092,145.0,1.5215680853836226,Scenic/peaceful travel destinations
+11,drop,0.024911195,53.0,1.9536150508008083,Scenic/peaceful travel destinations
+11,departure,0.0216934,136.0,0.9240820678590842,Scenic/peaceful travel destinations
+12,ready,0.3322813,36.0,2.288086279953353,"Flight seating (i.e. group seating, upgrades)"
+12,thank,0.19158733,76.0,1.3495647108037954,"Flight seating (i.e. group seating, upgrades)"
+12,way,0.12828122,45.0,1.9636704313899815,"Flight seating (i.e. group seating, upgrades)"
+12,seat,0.12753262,59.0,2.097816327750233,"Flight seating (i.e. group seating, upgrades)"
+12,choose,0.0703766,40.0,1.1497080607155599,"Flight seating (i.e. group seating, upgrades)"
+12,leave,0.043022487,26.0,1.9416358104097902,"Flight seating (i.e. group seating, upgrades)"
+12,hand,0.026801744,22.0,2.3023457448712312,"Flight seating (i.e. group seating, upgrades)"
+12,nice,0.010415176,23.0,0.7700934579439253,"Flight seating (i.e. group seating, upgrades)"
+12,go,7.1421114e-06,14.0,2.2526801514800434,"Flight seating (i.e. group seating, upgrades)"
+12,amaze,7.1264667e-06,2.0,1.6776541405267966,"Flight seating (i.e. group seating, upgrades)"
+13,travel,0.5824695,1116.0,1.7105200939459042,Travel alerts and advisories
+13,minute,0.08615254,37.0,1.6698304237536958,Travel alerts and advisories
+13,detail,0.05173554,307.0,1.9079027066232477,Travel alerts and advisories
+13,ensure,0.049313284,84.0,2.9770456406700356,Travel alerts and advisories
+13,online,0.03701653,210.0,1.6387838602973757,Travel alerts and advisories
+13,result,0.03315492,59.0,,Travel alerts and advisories
+13,mile,0.032828875,169.0,1.515647474630898,Travel alerts and advisories
+13,send,0.016092261,65.0,1.3086912429179653,Travel alerts and advisories
+13,smile,0.014481931,72.0,2.3398598079568,Travel alerts and advisories
+13,delay,0.009485815,40.0,1.2545854732208364,Travel alerts and advisories
+14,visit,0.17819194,840.0,1.643277960658903,Visit our website for more info
+14,enjoy,0.17497294,464.0,1.760627825021728,Visit our website for more info
+14,airport,0.13314247,407.0,1.6058346605665699,Visit our website for more info
+14,take,0.108682856,355.0,2.0965813496188503,Visit our website for more info
+14,love,0.058995374,408.0,1.9350491480389604,Visit our website for more info
+14,soon,0.038327295,195.0,1.7238874001229254,Visit our website for more info
+14,information,0.0359498,395.0,1.6416184971098267,Visit our website for more info
+14,operation,0.033873513,139.0,1.7815225485733774,Visit our website for more info
+14,announce,0.03321281,147.0,1.7830089743993065,Visit our website for more info
+14,spot,0.032556348,178.0,1.8928861751732826,Visit our website for more info
+16,check,0.19022228,583.0,1.414707715875958,Tips for comfortable travel experience
+16,experience,0.16955957,415.0,1.680152101280882,Tips for comfortable travel experience
+16,airline,0.13400349,379.0,2.1436483398306225,Tips for comfortable travel experience
+16,trip,0.097944655,406.0,1.515012225184353,Tips for comfortable travel experience
+16,discover,0.06920313,277.0,1.6686340096337233,Tips for comfortable travel experience
+16,baggage,0.057725385,100.0,1.8094969090970592,Tips for comfortable travel experience
+16,holiday,0.051043734,229.0,1.558139534883721,Tips for comfortable travel experience
+16,begin,0.048340634,109.0,1.98386750243743,Tips for comfortable travel experience
+16,update,0.04306021,291.0,1.1221355112204663,Tips for comfortable travel experience
+16,late,0.037840784,221.0,1.9009184074830165,Tips for comfortable travel experience
