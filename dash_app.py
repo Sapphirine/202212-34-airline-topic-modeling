@@ -4,34 +4,35 @@ import plotly.graph_objects as go
 import pandas as pd
 
 
-# app = Dash(__name__)
+app = Dash(__name__)
 
-# external JavaScript files
-external_scripts = [
-    'https://www.google-analytics.com/analytics.js',
-    {'src': 'https://cdn.polyfill.io/v2/polyfill.min.js'},
-    {
-        'src': 'https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.core.js',
-        'integrity': 'sha256-Qqd/EfdABZUcAxjOkMi8eGEivtdTkh3b65xCZL4qAQA=',
-        'crossorigin': 'anonymous'
-    }
-]
+# # external JavaScript files
+# external_scripts = [
+#     'https://www.google-analytics.com/analytics.js',
+#     {'src': 'https://cdn.polyfill.io/v2/polyfill.min.js'},
+#     {
+#         'src': 'https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.core.js',
+#         'integrity': 'sha256-Qqd/EfdABZUcAxjOkMi8eGEivtdTkh3b65xCZL4qAQA=',
+#         'crossorigin': 'anonymous'
+#     }
+# ]
 
-# external CSS stylesheets
-external_stylesheets = [
-    'https://codepen.io/chriddyp/pen/bWLwgP.css',
-    {
-        'href': 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',
-        'rel': 'stylesheet',
-        'integrity': 'sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO',
-        'crossorigin': 'anonymous'
-    }
-]
+# # external CSS stylesheets
+# external_stylesheets = [
+#     'https://codepen.io/chriddyp/pen/bWLwgP.css',
+#     {
+#         'href': 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',
+#         'rel': 'stylesheet',
+#         'integrity': 'sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO',
+#         'crossorigin': 'anonymous'
+#     }
+# ]
 
 
-app = Dash(__name__,
-                #external_scripts=external_scripts,
-                external_stylesheets=external_stylesheets)
+# app = Dash(__name__,
+#                 #external_scripts=external_scripts,
+#                 #external_stylesheets=external_stylesheets
+#           )
 
 
 topic_nums_to_names = {
@@ -101,13 +102,28 @@ def prep_airline_topic_heatmap_df():
     df_heatmap_topic_lvl_airline_scores = pd.DataFrame(columns=all_columns)
 
     for topic_num in all_topic_nums:
-        topic_num_pcts = user_tweet_counts_ALL[user_tweet_counts_ALL['Dominant_Topic']==topic_num]['topic_pct'].tolist()
+    # topic_num_pcts = user_tweet_counts_ALL[user_tweet_counts_ALL['Dominant_Topic']==topic_num]['topic_pct'].tolist()
+    # new_row_dict = {airline: topic_pct for airline, topic_pct in zip(all_airlines, topic_num_pcts)}
 
-        new_row_dict = {airline: topic_pct for airline, topic_pct in zip(all_airlines, topic_num_pcts)}
+#     topic_num_pcts = user_tweet_counts_ALL[user_tweet_counts_ALL[
+#         'Dominant_Topic']==topic_num]['user', 'topic_pct'].tolist()
+    
+#     new_row_df = pd.DataFrame(new_row_dict, index=[topic_num])
 
-        new_row_df = pd.DataFrame(new_row_dict, index=[topic_num])
-        df_heatmap_topic_lvl_airline_scores = pd.concat([df_heatmap_topic_lvl_airline_scores, new_row_df], axis=0, ignore_index=False)
+        topic_num_pcts = user_tweet_counts_ALL[user_tweet_counts_ALL[
+                'Dominant_Topic']==topic_num][['user', 'topic_pct']].T
 
+        new_header = topic_num_pcts.iloc[0] #grab the first row for the header
+        topic_num_pcts = topic_num_pcts[1:] #take the data less the header row
+        topic_num_pcts.columns = new_header #set the header row as the df header
+
+        topic_num_pcts = topic_num_pcts.rename_axis(None, axis=1)
+        topic_num_pcts.index=[topic_num]
+
+        df_heatmap_topic_lvl_airline_scores = pd.concat(
+            [df_heatmap_topic_lvl_airline_scores, topic_num_pcts], 
+            axis=0, ignore_index=False)
+        
     df_heatmap_topic_lvl_airline_scores.fillna(0, inplace=True)
     return df_heatmap_topic_lvl_airline_scores, all_topic_nums
 
