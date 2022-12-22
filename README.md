@@ -12,4 +12,8 @@ All code used for development and modeling can be found in:
 2) 2-put_tweets_in_csvs.ipynb
 3) 3-clean_tweets.ipynb
 
+To run Dash demo, run
+```
+python dash_app.py
+```
 
